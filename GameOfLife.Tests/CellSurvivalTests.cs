@@ -5,7 +5,7 @@ using GameOfLife.Core;
 namespace GameOfLife.Tests
 {
 	[TestFixture ()]
-	public class Test
+	public class CellSurvivalTests
 	{
 		[Test ()]
 		public void SingleCellDies ()
