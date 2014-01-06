@@ -1,6 +1,6 @@
-using NUnit.Framework;
 using System;
 using GameOfLife.Core;
+using NUnit.Framework;
 
 namespace GameOfLife.Tests
 {
