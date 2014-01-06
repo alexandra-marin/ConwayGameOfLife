@@ -11,8 +11,7 @@ namespace GameOfLife.Tests
 		public void SingleCellDies ()
 		{
 			Cell cell = new Cell ();
-			cell.Neighbours = 1;
-			//	cell.IsDead = false;
+			cell.Neighbours = 1; 
 
 			Assert.IsFalse (cell.CellSurvives());
 		}
@@ -21,8 +20,7 @@ namespace GameOfLife.Tests
 		public void CellWithTwoNeighboursSurvives ()
 		{
 			Cell cell = new Cell ();
-			cell.Neighbours = 2;
-			//	cell.IsDead = false;
+			cell.Neighbours = 2; 
 
 			Assert.IsTrue (cell.CellSurvives());
 		}
