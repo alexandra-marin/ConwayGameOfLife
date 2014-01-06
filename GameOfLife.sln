@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Tests", "GameOfLife.Tests\GameOfLife.Tests.csproj", "{B6D7D4C6-9163-4ABB-AF0C-6A16EE4C0396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Core", "GameOfLife.Core\GameOfLife.Core.csproj", "{77EE6109-D43D-44A5-9202-D16A89C25B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77EE6109-D43D-44A5-9202-D16A89C25B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EE6109-D43D-44A5-9202-D16A89C25B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EE6109-D43D-44A5-9202-D16A89C25B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EE6109-D43D-44A5-9202-D16A89C25B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D7D4C6-9163-4ABB-AF0C-6A16EE4C0396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D7D4C6-9163-4ABB-AF0C-6A16EE4C0396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D7D4C6-9163-4ABB-AF0C-6A16EE4C0396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D7D4C6-9163-4ABB-AF0C-6A16EE4C0396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GameOfLife.Tests\GameOfLife.Tests.csproj
+	EndGlobalSection
+EndGlobal
