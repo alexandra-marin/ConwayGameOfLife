@@ -34,7 +34,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GameOfLifeInitial.cs" />
-    <Compile Include="GameOfLifeInitialRefactored.cs" />
+    <Compile Include="GameOfLifeRefactored.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
