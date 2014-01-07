@@ -12,11 +12,11 @@ namespace GameOfLife.Core
 		public IList<Func<Cell, bool>> Rules;
 		Func<Cell, bool> IsUnderpopulated = cell => cell.Neighbours < 2;
 		Func<Cell, bool> IsOverpopulated = cell => cell.Neighbours > 4;
-		Func<Cell, bool> CannotBeRevivied = cell => cell.IsDead ? (cell.Neighbours == 3 ? false : true) : false;
+		Func<Cell, bool> CannotReproduce = cell => cell.IsDead ? (cell.Neighbours == 3 ? false : true) : false;
 
 		public Cell()
 		{
-			Rules = new [] {IsUnderpopulated, IsOverpopulated, CannotBeRevivied};
+			Rules = new [] {IsUnderpopulated, IsOverpopulated, CannotReproduce};
 		}
 
 		public bool CellSurvives()
